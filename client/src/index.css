@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navlink{
+  color:black !important;
+}
+.navbar-brand{
+  color:black !important;
+}
