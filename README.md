@@ -1,2 +1,2 @@
 # Pizza-Delivery-Application
-Realtime pizza order tracker app using MERN Stack
+Realtime pizza order tracking app using MERN Stack
