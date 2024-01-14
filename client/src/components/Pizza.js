@@ -38,7 +38,7 @@ export default function Pizza({pizza}) {
             </div>
 
             <div>
-                
+               <button className='btn'>ADD TO CART</button>
             </div>
         
         </div>
