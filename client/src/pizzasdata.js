@@ -36,7 +36,7 @@ description: "Non Veg cheeze pizza with all the meat"
         }
     ],
 category: "veg",
-image: "https://www.crazymasalafood.com/wp-content/images/double-1.jpg",
+image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
 description: "Veg Pizza is topped with corn"
 },{
     name: "Galapeno & Red Paprika Pizza",
@@ -49,7 +49,7 @@ description: "Veg Pizza is topped with corn"
         }
     ],
 category: "veg",
-image: "https://www.crazymasalafood.com/wp-content/images/double-1.jpg",
+image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
 description: "Galapeno & Red Paprika Pizza is the tastiest munch"
 },{
     name: "Margerita Chicken Pizza",
@@ -75,7 +75,7 @@ description: "Chicken pizza with margerita cheeze "
         },
     ],
 category: "veg",
-image: "https://www.crazymasalafood.com/wp-content/images/double-1.jpg",
+image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
 description: "Plain pizza with margerita and extra cheeze "
 },];
 export default pizzas
