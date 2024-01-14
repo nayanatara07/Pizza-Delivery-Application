@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 
 export default function Pizza({pizza}) {
-    const {quantity, setquantity} = useState(1)
-    const {varient, setvarient} = useState('small')
+    const [quantity, setquantity] = useState(1)
+    const [varient, setvarient] = useState('small')
   return (
     <div>
         <h1>{pizza.name}</h1>
@@ -34,7 +34,7 @@ export default function Pizza({pizza}) {
         <div className='flex-container'>
 
             <div>
-                
+               <h1>Price: {pizza.prices[0][varient]*quantity}</h1> 
             </div>
 
             <div>
