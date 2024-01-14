@@ -12,7 +12,7 @@ export default function Pizza({pizza}) {
 
             <div className='w-100'>
                 <p>Varients</p>
-                <select value={varient} onChange={(e)=>{setvarient(e.target.value)}}>
+                <select className='form-control' value={varient} onChange={(e)=>{setvarient(e.target.value)}}>
                     {pizza.varients.map(varient=>{
                         return <option value={varient}>{varient}</option>
                     })}
@@ -21,7 +21,7 @@ export default function Pizza({pizza}) {
 
             <div className='w-100'>
                 <p>Quantity</p>
-                <select value={quantity} onChange={(e)=>{setquantity(e.target.value)}}>
+                <select className='form-control' value={quantity} onChange={(e)=>{setquantity(e.target.value)}}>
                     {[...Array(10).keys()].map((x,i)=>{
                         return <option value={i+1}>{i+1}</option>
                     })}
@@ -33,11 +33,11 @@ export default function Pizza({pizza}) {
 
         <div className='flex-container'>
 
-            <div>
+            <div className='m-1 w-100'>
                <h1>Price: {pizza.prices[0][varient]*quantity}</h1> 
             </div>
 
-            <div>
+            <div className='m-1 w-100'>
                <button className='btn'>ADD TO CART</button>
             </div>
         
