@@ -9,7 +9,12 @@ export default function Pizza({pizza}) {
         <div className='flex-container'>
 
             <div className='w-100'>
-                <p>Variants</p>
+                <p>Varients</p>
+                <select>
+                    {pizza.varients.map(varient=>{
+                        return <option value={varient}>{varient}</option>
+                    })}
+                </select>
             </div>
 
             <div className='w-100'>
