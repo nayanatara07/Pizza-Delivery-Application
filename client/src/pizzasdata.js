@@ -1,3 +1,4 @@
+const pizzas =
 [{
     name: "Pepper Barbeque Chicken",
     varients: ["small","medeium","large"],
@@ -23,7 +24,7 @@ description: "Pepper Barbeque Chicken I Cheese"
     ],
 category: "nonveg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Non Veg Supreme I Cheese"
+description: "Non Veg cheeze pizza with all the meat"
 },{
     name: "Golden Corn Pizza",
     varients: ["small","medeium","large"],
@@ -36,7 +37,7 @@ description: "Non Veg Supreme I Cheese"
     ],
 category: "veg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Golden Corn Pizza I Cheese"
+description: "Veg Pizza is topped with corn"
 },{
     name: "Galapeno & Red Paprika Pizza",
     varients: ["small","medeium","large"],
@@ -49,7 +50,7 @@ description: "Golden Corn Pizza I Cheese"
     ],
 category: "veg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Galapeno & Red Paprika Pizza I Cheese"
+description: "Galapeno & Red Paprika Pizza is the tastiest munch"
 },{
     name: "Margerita Chicken Pizza",
     varients: ["small","medeium","large"],
@@ -58,11 +59,11 @@ description: "Galapeno & Red Paprika Pizza I Cheese"
         "small": 200,
         "medium": 350,
         "large": 400
-        }
+        },
     ],
 category: "nonveg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Margerita Chicken I Cheese"
+description: "Chicken pizza with margerita cheeze "
 },{
     name: "Double Cheeze Margherita Pizza",
     varients: ["small","medeium","large"],
@@ -71,10 +72,10 @@ description: "Margerita Chicken I Cheese"
         "small": 200,
         "medium": 350,
         "large": 400
-        }
+        },
     ],
 category: "veg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Double Cheeze Margherita Pizza I Cheese"
-}
-]
+description: "Plain pizza with margerita and extra cheeze "
+},];
+export default pizzas
