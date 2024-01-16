@@ -63,7 +63,7 @@ description: "Galapeno & Red Paprika Pizza is the tastiest munch"
     ],
 category: "nonveg",
 image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-description: "Chicken pizza with margerita cheeze "
+description: "Mouth watering Pizza for pizza lovers"
 },{
     name: "Double Cheeze Margherita Pizza",
     varients: ["small","medium","large"],
