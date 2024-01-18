@@ -79,3 +79,4 @@ image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
 description: "Plain pizza with margerita and extra cheeze "
 },];
 export default pizzas
+
