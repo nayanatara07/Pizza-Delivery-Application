@@ -12,3 +12,7 @@ const pizzaSchema = mongoose.schema({
 }, {
     timestamps:true,
 })
+
+const pizzaModel = mongoose.model('pizzas', pizzaSchema)
+
+module.exports = pizzaModel
