@@ -5,12 +5,21 @@ import Navbar from './components/Navbar';
 import Homescreen from './screens/Homescreen';
 import Loginscreen from './screens/Loginscreen';
 import Registerscreen from './screens/Registerscreen';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
  
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Homescreen/>
+      <Navbar />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homescreen />} />
+          <Route path="/register" element={<Registerscreen />} />
+          <Route path="/login" element={<Loginscreen />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
